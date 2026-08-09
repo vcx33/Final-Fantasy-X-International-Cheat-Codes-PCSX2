@@ -1,0 +1,488 @@
+Note: INT codes are for SLPS-25088
+
+Debugging Flags
+
+INT
+00316F9A 00000001 – Control enemies mode
+00316FB5 00000001 – Sensor always on (shows HP, etc. of any enemy)
+00316F99 00000001 – Invincible mode (characters)
+00316F98 00000001 – Invincible mode (enemies)
+00316FBE 00000001 – All enemies enter battle at 1 HP
+00316FBD 00000001 – All characters enter battle at 1 HP
+00316FA1 00000001 – Unlimited MP
+00316FAC 00000001 – Unlimited Overdrives
+00316FB2 00000001 – AP gained after battle x100
+00316FB3 00000001 – Gil gained after battle x100
+00316FB1 00000001 – Always rare item drop / steal
+00316FAE 00000001 – Everything does 1 damage
+00316FAF 00000001 – Everything does 9,999 damage
+00316FB0 00000001 – Everything does 99,999 damage
+00316FAD 00000001 – All applicable attacks critical hit
+00316FBF 00000001 – All evadable abilities miss + status effects never inflicted
+00316FA0 00000001 – Disable attack animations
+00316FB4 00000001 – Disable Overkill
+00316FA9 00000001 – Disable critical hits
+00316FA8 00000001 – Disable random variance on damage
+00316FBB 00000001 – Display battlefield coordinate grid
+00316FC3 000000xx – Start of battle behavior (01 = Always Preemptive Strike, 02 = Always Ambush, 03 = Never Preemptive Strike or Ambush)
+
+PAL
+0031731A 00000001 – Control enemies mode
+00317335 00000001 – Sensor always on (shows HP, etc. of any enemy)
+00317319 00000001 – Invincible mode (characters)
+00317318 00000001 – Invincible mode (enemies)
+0031733E 00000001 – All enemies enter battle at 1 HP
+0031733D 00000001 – All characters enter battle at 1 HP
+00317321 00000001 – Unlimited MP
+0031732C 00000001 – Unlimited Overdrives
+00317332 00000001 – AP gained after battle x100
+00317333 00000001 – Gil gained after battle x100
+00317331 00000001 – Always rare item drop / steal
+0031732E 00000001 – Everything does 1 damage
+0031732F 00000001 – Everything does 9,999 damage
+00317330 00000001 – Everything does 99,999 damage
+0031732D 00000001 – All applicable attacks critical hit
+0031733F 00000001 – All evadable abilities miss + status effects never inflicted
+00317320 00000001 – Disable attack animations
+00317334 00000001 – Disable Overkill
+00317329 00000001 – Disable critical hits
+00317328 00000001 – Disable random variance on damage
+0031733B 00000001 – Display battlefield coordinate grid
+00317343 000000xx – Start of battle behavior (01 = Always Preemptive Strike, 02 = Always Ambush, 03 = Never Preemptive Strike or Ambush)
+
+NA
+0031414A 00000001 – Control enemies mode
+00314165 00000001 – Sensor always on (shows HP, etc. of any enemy)
+00314149 00000001 – Invincible mode (characters)
+00314148 00000001 – Invincible mode (enemies)
+0031416E 00000001 – All enemies enter battle at 1 HP
+0031416D 00000001 – All characters enter battle at 1 HP
+00314151 00000001 – Unlimited MP
+0031415C 00000001 – Unlimited Overdrives
+00314162 00000001 – AP gained after battle x100
+00314163 00000001 – Gil gained after battle x100
+00314161 00000001 – Always rare item drop / steal
+0031415E 00000001 – Everything does 1 damage
+0031415F 00000001 – Everything does 9,999 damage
+00314160 00000001 – Everything does 99,999 damage
+0031415D 00000001 – All applicable attacks critical hit
+0031416F 00000001 – All evadable abilities miss + status effects never inflicted
+00314150 00000001 – Disable attack animations
+00314164 00000001 – Disable Overkill
+00314159 00000001 – Disable critical hits
+00314158 00000001 – Disable random variance on damage
+0031416B 00000001 – Display battlefield coordinate grid
+00314173 000000xx – Start of battle behavior (01 = Always Preemptive Strike, 02 = Always Ambush, 03 = Never Preemptive Strike or Ambush)
+
+Swap Character Model
+*For dark aeons to work, you must have a battle party member replaced by the dark aeon's regular model when you summon it. Otherwise, the dark aeon will be "frozen".
+*For floating models, replace Valefor's model or they will be half-underground.
+*For abilities to go with the enemy models, you can use pbirdman's attack codes. Also, some of the more interesting abilities can be added by FFXED.
+
+INT
+103190F8 0000xxxx - Tidus
+103190FC 0000xxxx - Yuna
+10319100 0000xxxx - Auron
+10319104 0000xxxx - Kimarhi
+10319108 0000xxxx - Wakka
+1031910C 0000xxxx - Lulu
+10319110 0000xxxx - Rikku
+10319114 0000xxxx - Seymour
+10319118 0000xxxx - Valefor
+1031911C 0000xxxx - Ifrit
+10319120 0000xxxx - Ixion
+10319124 0000xxxx - Shiva
+10319128 0000xxxx - Bahamut
+1031912C 0000xxxx - Anima
+10319130 0000xxxx - Yojimbo
+10319134 0000xxxx - Cindy
+10319138 0000xxxx - Sandy
+1031913C 0000xxxx - Mindy
+
+PAL
+10319478 0000xxxx - Tidus
+1031947C 0000xxxx - Yuna
+10319480 0000xxxx - Auron
+10319484 0000xxxx - Kimarhi
+10319488 0000xxxx - Wakka
+1031948C 0000xxxx - Lulu
+10319490 0000xxxx - Rikku
+10319494 0000xxxx - Seymour
+10319498 0000xxxx - Valefor
+1031949C 0000xxxx - Ifrit
+103194A0 0000xxxx - Ixion
+103194A4 0000xxxx - Shiva
+103194A8 0000xxxx - Bahamut
+103194AC 0000xxxx - Anima
+103194B0 0000xxxx - Yojimbo
+103194B4 0000xxxx - Cindy
+103194B8 0000xxxx - Sandy
+103194BC 0000xxxx - Mindy
+
+NA
+10316290 0000xxxx - Tidus
+10316294 0000xxxx - Yuna
+10316298 0000xxxx - Auron
+1031629C 0000xxxx - Kimarhi
+103162A0 0000xxxx - Wakka
+103162A4 0000xxxx - Lulu
+103162A8 0000xxxx - Rikku
+103162AC 0000xxxx - Seymour
+103162B0 0000xxxx - Valefor
+103162B4 0000xxxx - Ifrit
+103162B8 0000xxxx - Ixion
+103162BC 0000xxxx - Shiva
+103162C0 0000xxxx - Bahamut
+103162C4 0000xxxx - Anima
+103162C8 0000xxxx - Yojimbo
+103162CC 0000xxxx - Cindy
+103162D0 0000xxxx - Sandy
+103162D4 0000xxxx - Mindy
+
+Values:
+0001 - Tidus
+0002 - Yuna
+0003 - Auron
+0004 - Kimahri
+0005 - Wakka
+0006 - Lulu
+0007 - Rikku
+0008 - Seymour
+3001 - Valefor
+3002 - Ifrit
+3003 - Ixion
+3004 - Shiva
+3006 - Bahamut
+3007 - Anima
+3008 - Yojimbo
+3009 - Cindy
+300A - Sandy
+300B - Mindy
+3017 - Yojimbo's Dog
+114E - Dark Valefor
+114F - Dark Ifrit
+1150 - Dark Ixion
+1151 - Dark Shiva
+1152 - Dark Bahamut
+1153 - Dark Anima
+1154 - Dark Yojimbo
+1155 - Dark Cindy
+1156 - Dark Sandy
+1157 - Dark Mindy
+1074 - Dark Yojimbo's Dog
+1002 - Bunyip
+1006 - Gandarewa
+100A - Mi'ihen Fang
+1010 - Water Flan
+1016 - Dinonix
+101C - Condor
+101F - Killer Bee
+1023 - Floating Eye
+1027 - Ragora
+102B - Sahagin (land)
+102D - Zu
+102E - Sand Worm
+1030 - Defender
+1032 - Ghost
+1033 - Phlegyas
+1035 - Remora
+1037 - Dual Horn
+103A - Octopus
+103B - Vouivre
+1040 - Malboro
+1044 - Piranha
+104D - Yellow Element
+104E - White Element
+104F - Red Element
+1050 - Gold Element
+1051 - Blue Element
+1052 - Dark Element
+1055 - Behemoth
+1057 - Chimera
+1059 - Coeurl
+105F - Demonolith
+1060 - Mech Gunner
+1063 - Ultima Weapon
+1065 - Tros
+1066 - Sinspawn Geneaux
+1067 - Geneaux's Tentacle
+1068 - Chocobo Eater
+1069 - Neslug
+106A - Mortiphasm
+106B - Sinscale
+106D - Geosgaeno
+106E - Oblitzerator
+106F - Extractor
+1071 - Sin's Fin
+1072 - Sinspawn Euchilles
+1073 - Sinscale (water)
+1075 - Sinspawn Gui
+1077 - Evrae
+1079 - Spherimorph
+107A - Crawler
+107B - Negator
+107E - Seymour Natus
+107F - Mortibody
+1080 - Sanctuary Keeper
+1081 - Spectral Keeper
+1082 - Yunalesca
+1083 - Seymour Omnis
+1084 - Braska's Final Aeon
+1085 - Crane
+1086 - Biran Ronso
+1087 - Yenke Ronso
+108A - Sin's Core
+108C - Overdrive Sin
+108E - Seymour Flux
+1098 - Mech Guard
+1099 - Lord Ochu
+109B - Sahagin (water)
+109E - Epaaj
+109F - Sinspawn Ammes
+10AD - Yu Pagoda R
+10AE - Yu Pagoda L
+10B0 - Yu Yevon
+10B5 - Iron Giant
+10B9 - Basilisk
+10BB - Adamantoise
+10BC - Varuna
+10BF - YAT-99
+10C1 - Bomb
+10C3 - YKT-63
+10C5 - Warrior Monk (rifle)
+10C7 - Warrior Monk (flamethrower)
+10CA - Magic Pot
+10CF - Cactuar
+10D1 - Larva
+10D2 - Barbatos
+10D4 - Wendigo
+10D5 - Guado Guardian
+10D6 - Funguar
+10DF - Tonberry
+1158 - Penance
+1159 - Penance's Arm
+
+Limit Breaks
+
+INT
+201C218C 3C0B0099 - Break 99,999 Damage Limit w/o BDL Auto-Ability
+201C2184 3C030099 - Break 99,999 Damage Limit w/ BDL Auto-Ability
+201C21A4 3C0B0099 - Break 99,999 Damage Limit On Some Items & Special Attacks
+201C21B4 3C030099 - Break Item Damage/Healing Limit
+201BEED8 3C0A05F6 - Break 99,999 HP Limit w/o BHPL Auto-Ability
+201BEED0 3C0605F6 - Break 99,999 HP Limit w/ BHPL Auto-Ability
+201BEF10 3C0A05F6 - Break 9,999 MP Limit w/o BMPL Auto-Ability
+201BEF00 3C1005F6 - Break 9,999 MP Limit w/ BMPL Auto-Ability
+
+PAL
+201C22C4 3C0B0099 - Break 99,999 Damage Limit w/o BDL Auto-Ability
+201C22BC 3C030099 - Break 99,999 Damage Limit w/ BDL Auto-Ability
+201C22DC 3C0B0099 - Break 99,999 Damage Limit On Some Items & Special Attacks
+201C22EC 3C030099 - Break Item Damage/Healing Limit
+201BF010 3C0A05F6 - Break 99,999 HP Limit w/o BHPL Auto-Ability
+201BF008 3C0605F6 - Break 99,999 HP Limit w/ BHPL Auto-Ability
+201BF048 3C0A05F6 - Break 9,999 MP Limit w/o BMPL Auto-Ability
+201BF038 3C1005F6 - Break 9,999 MP Limit w/ BMPL Auto-Ability
+
+NA
+201C133C 3C0B0099 - Break 99,999 Damage Limit w/o BDL Auto-Ability
+201C1334 3C030099 - Break 99,999 Damage Limit w/ BDL Auto-Ability
+201C1354 3C0B0099 - Break 99,999 Damage Limit On Some Items & Special Attacks
+201C1364 3C030099 - Break Item Damage/Healing Limit
+201BE118 3C0A05F6 - Break 99,999 HP Limit w/o BHPL Auto-Ability
+201BE110 3C0605F6 - Break 99,999 HP Limit w/ BHPL Auto-Ability
+201BE150 3C0A05F6 - Break 9,999 MP Limit w/o BMPL Auto-Ability
+201BE140 3C1005F6 - Break 9,999 MP Limit w/ BMPL Auto-Ability
+
+Who can Summon
+
+INT - 00AE0C4D 000000xx
+PAL - 00ADB14D 000000xx
+NA  - 00AE638D 000000xx
+
+Values:
+00 - Tidus
+01 - Yuna
+02 - Auron
+03 - Kimahri
+04 - Wakka
+05 - Lulu
+06 - Rikku
+07 - Seymour
+08 - Valefor
+09 - Ifrit
+0A - Ixion
+0B - Shiva
+0C - Bahamut
+0D - Anima
+0E - Yojimbo
+0F - Cindy
+10 - Sandy
+11 - Mindy
+FF - Everyone
+
+Control Yojimbo Directly
+
+INT
+0031CEF4 00000000 - Yojimbo Compatibility set to 0 (no free attacks)
+00ADF6EA 00000001 - Yojimbo can use Daigoro
+00ADF74A 00000001 - Yojimbo can use Kozuka
+00ADF7AA 00000001 - Yojimbo can use Wakizashi (target one)
+00ADF80A 00000001 - Yojimbo can use Wakizashi (target all)
+00ADF86A 00000001 - Yojimbo can use Zanmato
+
+PAL
+0031D274 00000000 - Yojimbo Compatibility set to 0 (no free attacks)
+00AD9BEA 00000001 - Yojimbo can use Daigoro
+00AD9C4A 00000001 - Yojimbo can use Kozuka
+00AD9CAA 00000001 - Yojimbo can use Wakizashi (target one)
+00AD9D0A 00000001 - Yojimbo can use Wakizashi (target all)
+00AD9D6A 00000001 - Yojimbo can use Zanmato
+
+NA
+0031A084 00000000 - Yojimbo Compatibility set to 0 (no free attacks)
+00AE4E2A 00000001 - Yojimbo can use Daigoro
+00AE4E8A 00000001 - Yojimbo can use Kozuka
+00AE4EEA 00000001 - Yojimbo can use Wakizashi (target one)
+00AE4F4A 00000001 - Yojimbo can use Wakizashi (target all)
+00AE4FAA 00000001 - Yojimbo can use Zanmato
+
+Zanmato Overkills
+
+INT
+20ADF874 01000080
+20ADF87C 02FF0017
+
+PAL
+20AD9D74 01000080
+20AD9D7C 02FF0017
+
+NA
+20AE4FB4 01000080
+20AE4FBC 02FF0017
+
+Game Speed Multiplier
+
+*Affects how fast game runs while outside of battle
+*Affects animations during cutscenes, but cutscenes still take the same amount of time
+
+INT
+1011ADA4 00000003
+2057F20C 4xxx0000
+
+PAL
+1011ADA4 00000003
+2057F68C 4xxx0000
+
+NA
+1011ADA4 00000003
+2056348C 4xxx0000
+
+Values:
+2C8 - 1x
+348 - 2x
+396 - 3x
+3C8 - 4x
+3FA - 5x
+
+Modify Attack Command
+*For some reason, some codes only work if you activate them with a joker
+
+INT
+00ADA3C2 000000FF - Attack always kills
+E0xxFEFF 0078A9C2 - Press L2 to activate xx of the following codes:
+00ADA3B0 00000002 - Attack never misses
+00ADA3B8 00000001 - Attack is Rank 1
+00ADA3B4 0000008C - Attack deals special damage and breaks damage limit
+00ADA3B2 00000001 - Attack ignores weapon stats, pierces armor
+20ADA3BC 02FF0017 - Attack always overkills, even if Death is inflicted *needs previous entry
+
+Modify Black Magic
+*The animations for Drain and Osmose don't work right
+
+INT
+E0xxFEFF 0078A9C2 - Press L2 to activate xx of the following lines
+20ADBC64 01ED01ED - Use multi-hit Fire animation
+20ADBC7C xxyy00zz - xx = Number of Fire hits, yy = Fire damage constant, zz = Fire damage formula
+20ADBC04 01EE01EE - Use multi-hit Blizzard animation
+20ADBC1C xxyy00zz - xx = Number of Blizzard hits, yy = Blizzard damage constant, zz = Blizzard damage formula
+20ADBCC4 01EF01EF - Use multi-hit Thunder animation
+20ADBCDC xxyy00zz - xx = Number of Thunder hits, yy = Thunder damage constant, zz = Thunder damage formula
+20ADBD24 01F401F4 - Use multi-hit Water animation
+20ADBD3C xxyy00zz - xx = Number of Water hits, yy = Water damage constant, zz = Water damage formula
+20ADBD84 019B019B - Use multi-hit Fira animation
+20ADBD9C xxyy00zz - xx = Number of Fira hits, yy = Fira damage constant, zz = Fira damage formula
+20ADBDE4 019D019D - Use multi-hit Blizzara animation
+20ADBDFC xxyy00zz - xx = Number of Blizzara hits, yy = Blizzara damage constant, zz = Blizzara damage formula
+20ADBE44 019C019C - Use multi-hit Thundara animation
+20ADBE5C xxyy00zz - xx = Number of Thundara hits, yy = Thundara damage constant, zz = Thundara damage formula
+20ADBEA4 019E019E - Use multi-hit Watera animation
+20ADBEBC xxyy00zz - xx = Number of Watera hits, yy = Watera damage constant, zz = Watera damage formula
+20ADBF04 01A901A9 - Use multi-hit Firaga animation
+20ADBF1C xxyy00zz - xx = Number of Firaga hits, yy = Firaga damage constant, zz = Firaga damage formula
+20ADBF64 01B801B8 - Use multi-hit Blizzaga animation
+20ADBF7C xxyy00zz - xx = Number of Blizzaga hits, yy = Blizzaga damage constant, zz = Blizzaga damage formula
+20ADBFC4 01B701B7 - Use multi-hit Thundaga animation
+20ADBFDC xxyy00zz - xx = Number of Thundaga hits, yy = Thundaga damage constant, zz = Thundaga damage formula
+20ADC024 01B901B9 - Use multi-hit Waterga animation
+20ADC03C xxyy00zz - xx = Number of Waterga hits, yy = Waterga damage constant, zz = Waterga damage formula
+20ADC084 01EC01EC - Use multi-hit Bio animation
+20ADC09C xxyy00zz - xx = Number of Bio hits, yy = Bio damage constant, zz = Bio damage formula
+20ADC0E4 01BA01BA - Use multi-hit Demi animation
+20ADC0FC xxyy00zz - xx = Number of Demi hits, yy = Demi damage constant, zz = Demi damage formula
+20ADC144 01BB01BB - Use multi-hit Death animation
+20ADC15C xxyy00zz - xx = Number of Death hits, yy = Death damage constant, zz = Death damage formula
+20ADC1A4 015B015B - Use multi-hit Drain animation
+20ADC1BC xxyy00zz - xx = Number of Drain hits, yy = Drain damage constant, zz = Drain damage formula
+20ADC204 01EB01EB - Use multi-hit Osmose animation
+20ADC21C xxyy00zz - xx = Number of Osmose hits, yy = Osmose damage constant, zz = Osmose damage formula
+20ADC264 01BC01BC - Use multi-hit Flare animation
+20ADC27C xxyy00zz - xx = Number of Flare hits, yy = Flare damage constant, zz = Flare damage formula
+20ADC2C4 01BD01BD - Use multi-hit Ultima animation
+20ADC2DC xxyy00zz - xx = Number of Ultima hits, yy = Ultima damage constant, zz = Ultima damage formula
+
+Default Damage Constants:
+0C - Level 1 Magic
+18 - Level 2 Magic
+2A - Level 3 Magic
+00 - Bio & Death
+04 - Demi
+14 - Drain
+0A - Osmose
+3C - Flare
+46 - Ultima
+
+Damage Formulas:
+03 - Regular Magic (Default on all but Demi)
+05 - Target Current HP (Demi), Damage = (Target Current HP) * (Damage Constant) / 16
+04 - Ignore Magic Defense
+0F - Special Magic
+08 - Target Max HP, Damage = (Target Max HP) * (Damage Constant) / 16
+17 - Multiples of 9,999, Damage = (Damage Constant) * 9999
+
+Always Perfect Lulu Overdrive
+
+INT
+E002FEFF 0078A9C2 - Press L2 to activate
+40ADD0EC 00130018
+00000000 00000000
+
+Improved Requiem
+
+INT
+E005FEFF 0078A9C2 - Press L2 to activate
+10ADF8C4 000001BD - Use multi-hit Ultima animation
+20ADF8DC 03460004 - Damage constant = 70, hit three times, ignore M. Defense
+10ADF8E8 0000FEFE - Inflict Armor Break & Mental Break
+00ADF8D2 00000001 - Piercing
+00ADF8D4 00000080 - Special damage, break damage limit
+
+Death Replaced by Break
+
+INT
+E005FEFF 0078A9C2 - Press L2 to activate
+20ADC144 017A017A - Use Break animation
+00ADC162 00000000 - Death % = 0
+00ADC164 000000FE - Petrify % = 254
+00AE29B3 00000051 - Name changed to Break (1)
+20AE29B4 7A707481 - Name changed to Break (2)
